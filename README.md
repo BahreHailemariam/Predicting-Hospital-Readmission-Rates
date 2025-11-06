@@ -23,3 +23,15 @@ By leveraging **electronic health record (EHR)** data and other patient-level at
 - **Deployment:** Interactive dashboard and model API integration for ongoing hospital use.
 
 ---
+
+## 🧠 Tech Stack
+| Category | Tools / Libraries |
+|-----------|------------------|
+| **Language** | Python 3.10+ |
+| **Data Handling** | pandas, numpy, SQLAlchemy |
+| **Machine Learning** | scikit-learn, xgboost, imbalanced-learn |
+| **Visualization** | matplotlib, seaborn, Power BI |
+| **Deployment** | Flask / FastAPI, Streamlit |
+| **Version Control** | Git, GitHub |
+
+---
