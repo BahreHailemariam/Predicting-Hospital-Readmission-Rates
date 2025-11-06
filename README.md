@@ -170,3 +170,30 @@ DIVIDE(SUM('Metrics'[Correct Predictions]), SUM('Metrics'[Total Predictions])) *
 - Is model performance consistent across demographics?
 
 ---
+## ⚙️ 4. Operational Metrics
+
+**Objective:**  
+Enable management to monitor interventions, care programs, and outcomes.
+
+**Visual Components:**
+- Gauge Chart: Target vs Actual Readmission Reduction (%)
+- Table: Intervention summary (Patient ID, Type, Follow-Up Date, Clinician)
+- Bar Chart: Average intervention effectiveness
+- Line Chart: Weekly improvement trends
+- Map: Readmission density by region (multi-site)
+
+**Example DAX Measure:**
+```DAX
+Reduction from Baseline (%) =
+DIVIDE(
+    [Baseline Readmission Rate] - [Current Readmission Rate],
+    [Baseline Readmission Rate]
+) * 100
+```
+
+**Business Questions Answered:**
+- Are intervention programs effective?
+- Which care strategies yield the best outcomes?
+- How do results vary across regions?
+
+---
