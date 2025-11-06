@@ -216,3 +216,12 @@ DIVIDE(
 - Provides **predictive and preventive** intelligence for management
 
 ---
+## 🧮 Evaluation Metrics
+| Metric | Description |
+|--------|--------------|
+| **Accuracy** | Overall correctness of predictions |
+| **Precision / Recall** | Key for identifying high-risk patients |
+| **ROC-AUC** | Measures separability of risk scores |
+| **F1-Score** | Balance between precision and recall |
+
+---
