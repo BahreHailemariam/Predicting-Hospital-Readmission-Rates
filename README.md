@@ -197,3 +197,22 @@ DIVIDE(
 - How do results vary across regions?
 
 ---
+
+## 📡 Interactivity & Automation
+
+- **Slicers:** Department, Diagnosis, Month, Age Group, Risk Level  
+- **Drillthrough:** Department → High-Risk Patients → Patient Record  
+- **Tooltips:** Patient details, readmission reason, cost impact  
+- **Scheduled Refresh:** Automated daily sync with SQL/cloud source  
+- **Alerts:** Email notifications for spikes above threshold  
+
+---
+
+## 💡 Key Insights Delivered
+
+- Identifies **root causes** of readmissions  
+- Enables **data-driven prioritization** of care  
+- Tracks **intervention effectiveness**  
+- Provides **predictive and preventive** intelligence for management
+
+---
