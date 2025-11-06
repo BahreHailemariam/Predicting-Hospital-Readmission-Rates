@@ -71,3 +71,14 @@ pip install -r requirements.txt
 ```
 
 ---
+
+## 🚀 Usage
+```bash
+python scripts/load_data.py
+python scripts/clean_data.py
+python scripts/feature_engineering.py
+python scripts/train_model.py
+streamlit run scripts/app.py
+```
+
+---
