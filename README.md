@@ -82,3 +82,39 @@ streamlit run scripts/app.py
 ```
 
 ---
+
+## 📊 Power BI Dashboard Preview
+This Power BI dashboard transforms predictive analytics and EHR data into actionable insights for hospital management, clinicians, and quality teams. It integrates real-time updates from the model output and supports drill-through analysis for patient-level investigations.
+
+---
+
+## 🩺 1. Readmission Overview
+
+**Objective:**  
+Provide a high-level snapshot of hospital performance and patient readmission patterns.
+
+**Visual Components:**
+- KPI Cards: 30-Day Readmission Rate, Average Cost per Readmission, Average Length of Stay, Department-wise Readmission Rate
+- Trend Line: Monthly readmission rate over time
+- Stacked Bar Chart: Department-wise readmission distribution
+- Heatmap: Readmission frequency by diagnosis category and age group
+- Filters: Department, Diagnosis Group, Month, Insurance Type
+
+**Example DAX Measures:**
+```DAX
+Readmission Rate (%) =
+DIVIDE(
+    COUNTROWS(FILTER('Patients', 'Patients'[Readmitted] = 1)),
+    COUNTROWS('Patients')
+) * 100
+
+Avg Cost per Readmission =
+AVERAGE('Patients'[ReadmissionCost])
+```
+
+**Business Questions Answered:**
+- Which departments have the highest readmission rates?
+- Are readmission costs increasing over time?
+- What seasonal or temporal patterns exist?
+
+---
