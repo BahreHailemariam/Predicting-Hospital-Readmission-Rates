@@ -118,3 +118,30 @@ AVERAGE('Patients'[ReadmissionCost])
 - What seasonal or temporal patterns exist?
 
 ---
+## 🧠 2. Patient Risk Profiling
+
+**Objective:**  
+Segment and visualize patients by predicted readmission risk levels (Low, Medium, High).
+
+**Visual Components:**
+- Scatter Plot: Risk Score vs. Age, colored by risk group
+- Table: Patient ID, Age, Diagnosis, Predicted Probability, Risk Category
+- Donut Chart: Proportion of patients by risk group
+- Histogram: Distribution of predicted probabilities
+- KPI Card: Count of High-Risk Patients
+
+**Example DAX Measures:**
+```DAX
+High Risk Patients =
+COUNTROWS(FILTER('Predictions', 'Predictions'[RiskScore] > 0.7))
+
+Avg Risk Score =
+AVERAGE('Predictions'[RiskScore])
+```
+
+**Business Questions Answered:**
+- Which patients are most likely to be readmitted?
+- How can care teams prioritize interventions?
+- How many high-risk patients were discharged recently?
+
+---
