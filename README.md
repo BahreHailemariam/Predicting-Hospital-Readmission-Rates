@@ -225,3 +225,35 @@ DIVIDE(
 | **F1-Score** | Balance between precision and recall |
 
 ---
+
+## 🧾 Requirements
+```
+pandas>=2.0
+numpy>=1.25
+scikit-learn>=1.3
+xgboost>=1.7
+imbalanced-learn>=0.11
+matplotlib>=3.8
+seaborn>=0.13
+flask>=3.0
+streamlit>=1.30
+powerbiclient>=3.0
+sqlalchemy>=2.0
+```
+
+---
+
+## 📈 Expected Impact
+- Reduce hospital readmission rates by enabling **early intervention**.
+- Improve **resource allocation** and discharge planning.
+- Enhance **patient care quality** through data-driven decisions.
+
+---
+
+## 🤝 Contributions
+Pull requests and issue reports are welcome!
+
+---
+
+## 📜 License
+Licensed under the **MIT License**.
