@@ -59,3 +59,15 @@ Predicting-Hospital-Readmission-Rates/
 ├── requirements.txt
 └── README.md
 ```
+
+
+---
+
+## ⚙️ Installation
+```bash
+git clone https://github.com/yourusername/Predicting-Hospital-Readmission-Rates.git
+cd Predicting-Hospital-Readmission-Rates
+pip install -r requirements.txt
+```
+
+---
