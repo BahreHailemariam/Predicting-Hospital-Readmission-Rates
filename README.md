@@ -8,3 +8,10 @@ Hospital readmissions are a critical healthcare metric that affects patient care
 By leveraging **electronic health record (EHR)** data and other patient-level attributes, this solution helps healthcare providers proactively design interventions, improve outcomes, and optimize hospital resources.
 
 ---
+## 🎯 Objectives
+- Identify factors contributing to frequent hospital readmissions.
+- Develop a **predictive model** for readmission risk using historical EHR data.
+- Create actionable insights for **care management teams** to reduce preventable readmissions.
+- Build a **Power BI dashboard** for real-time visualization and operational monitoring.
+
+---
