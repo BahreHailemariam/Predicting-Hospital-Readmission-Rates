@@ -145,3 +145,28 @@ AVERAGE('Predictions'[RiskScore])
 - How many high-risk patients were discharged recently?
 
 ---
+
+## 🧮 3. Model Insights
+
+**Objective:**  
+Provide interpretability and validation of the machine learning model.
+
+**Visual Components:**
+- Bar Chart: Top 10 features influencing predictions
+- ROC Curve: Model performance comparison (Train vs Validation)
+- Confusion Matrix: Model prediction breakdown
+- KPI Cards: Accuracy, Precision, Recall, F1, AUC
+- Line Chart: Accuracy trend across retraining cycles
+
+**Example DAX Measure:**
+```DAX
+Model Accuracy (%) =
+DIVIDE(SUM('Metrics'[Correct Predictions]), SUM('Metrics'[Total Predictions])) * 100
+```
+
+**Business Questions Answered:**
+- How accurate is the model?
+- Which features most influence predictions?
+- Is model performance consistent across demographics?
+
+---
